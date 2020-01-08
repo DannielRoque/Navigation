@@ -89,6 +89,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:text="@string/confirmar_pagamento"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/pagamento_numero_cartao"
         app:layout_constraintStart_toStartOf="@id/pagamento_numero_cartao" />
