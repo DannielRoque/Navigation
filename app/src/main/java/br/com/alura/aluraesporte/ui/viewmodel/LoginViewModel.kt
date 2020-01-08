@@ -11,7 +11,12 @@ class LoginViewModel(
         repository.loga()
     }
 
+    fun desloga(){
+        repository.desloga()
+    }
+
 
     fun estaLogado():Boolean= repository.estaLogado()
+    fun naoEstaLogado(): Boolean = !estaLogado()
 
 }

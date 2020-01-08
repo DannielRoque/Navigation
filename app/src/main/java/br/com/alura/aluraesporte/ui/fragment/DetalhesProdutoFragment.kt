@@ -15,7 +15,7 @@ import kotlinx.android.synthetic.main.detalhes_produto.*
 import org.koin.android.viewmodel.ext.android.viewModel
 import org.koin.core.parameter.parametersOf
 
-class DetalhesProdutoFragment : Fragment() {
+class DetalhesProdutoFragment : BaseFragment() {
 
     private val argumentos by navArgs<DetalhesProdutoFragmentArgs>()
     private val produtoId by lazy {
